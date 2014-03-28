@@ -7,6 +7,8 @@ The `rails-bootstrap-daterangepicker` gem integrates the [bootstrap-daterangepic
 
 ## Usage
 
+[![GitHub version](https://badge.fury.io/gh/chilian%2Frails-bootstrap-daterangepicker.png)](http://badge.fury.io/gh/chilian%2Frails-bootstrap-daterangepicker)
+
 ### Install the rails-bootstrap-daterangepicker gem
 
 Add `rails-bootstrap-daterangepicker` to your Gemfile and run `bundle install`:
