@@ -13,23 +13,31 @@ The `rails-bootstrap-daterangepicker` gem integrates the [bootstrap-daterangepic
 
 Add `rails-bootstrap-daterangepicker` to your Gemfile and run `bundle install`:
 
-  gem "rails-bootstrap-daterangepicker"
+```ruby
+gem "rails-bootstrap-daterangepicker"
+```
 
 ### Include rails-bootstrap-daterangepicker javascript assets
 
 Add the following to your `app/assets/javascripts/application.js`:
 
-  //= require bootstrap-daterangepicker
+```
+//= require bootstrap-daterangepicker
+```
 
 ### Include rails-bootstrap-daterangepicker stylesheet assets
 
 Add to your `app/assets/stylesheets/application.css`:
 
-  *= require bootstrap-daterangepicker-3
+```
+*= require bootstrap-daterangepicker-3
+```
 
 Or if you are using Twitter Boostrap 2 you need to require the following file instead:
 
-  *= require bootstrap-daterangepicker-2
+```
+*= require bootstrap-daterangepicker-2
+```
 
 ## Contributions
 
