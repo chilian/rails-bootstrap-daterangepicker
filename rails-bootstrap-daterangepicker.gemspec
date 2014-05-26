@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "bundler", "~> 1.0"
   s.add_development_dependency "rails", ">= 3.0"
   s.add_development_dependency "httpclient", "~> 2.2"
+  s.add_development_dependency "jeweler", "~> 2.0"
 end

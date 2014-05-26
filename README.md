@@ -22,6 +22,7 @@ gem "rails-bootstrap-daterangepicker"
 Add the following to your `app/assets/javascripts/application.js`:
 
 ```
+//= require moment
 //= require bootstrap-daterangepicker
 ```
 
