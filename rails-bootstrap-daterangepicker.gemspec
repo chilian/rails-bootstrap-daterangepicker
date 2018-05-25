@@ -6,14 +6,14 @@
 
 Gem::Specification.new do |s|
   s.name = "rails-bootstrap-daterangepicker"
-  s.version = "0.1.0"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Christoph Chilian"]
-  s.date = "2014-05-26"
+  s.authors = ["Antonio Schiavon"]
+  s.date = "2018-05-25"
   s.description = "rails-bootstrap-daterangepicker"
-  s.email = ["christoph@chilian.de"]
+  s.email = ["aschiavon91@gmail.com"]
   s.extra_rdoc_files = [
     "LICENSE",
     "README.md"
@@ -25,48 +25,16 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
-    "app/assets/javascripts/bootstrap-daterangepicker.js",
-    "app/assets/javascripts/moment.js",
-    "app/assets/stylesheets/bootstrap-daterangepicker-2.css",
-    "app/assets/stylesheets/bootstrap-daterangepicker-3.css",
+    "app/assets/javascripts/daterangepicker.min.js",
+    "app/assets/stylesheets/daterangepicker.min.css",
+    "app/assets/stylesheets/daterangepicker.min.map",
     "lib/rails-bootstrap-daterangepicker.rb",
     "lib/rails-bootstrap-daterangepicker/engine.rb",
     "lib/rails-bootstrap-daterangepicker/version.rb",
     "rails-bootstrap-daterangepicker.gemspec"
   ]
-  s.homepage = "http://github.com/chilian/rails-bootstrap-daterangepicker"
+  s.homepage = "http://github.com/aschiavon91/rails-bootstrap-daterangepicker"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
   s.summary = "rails-bootstrap-daterangepicker"
-
-  if s.respond_to? :specification_version then
-    s.specification_version = 4
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<rails>, ["< 5", ">= 3.2.0"])
-      s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_development_dependency(%q<rspec>, ["~> 2.14"])
-      s.add_development_dependency(%q<rspec-rails>, ["~> 2.14"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 2.0"])
-      s.add_development_dependency(%q<simplecov>, ["~> 0"])
-    else
-      s.add_dependency(%q<rails>, ["< 5", ">= 3.2.0"])
-      s.add_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_dependency(%q<rspec>, ["~> 2.14"])
-      s.add_dependency(%q<rspec-rails>, ["~> 2.14"])
-      s.add_dependency(%q<bundler>, ["~> 1.0"])
-      s.add_dependency(%q<jeweler>, ["~> 2.0"])
-      s.add_dependency(%q<simplecov>, ["~> 0"])
-    end
-  else
-    s.add_dependency(%q<rails>, ["< 5", ">= 3.2.0"])
-    s.add_dependency(%q<rdoc>, ["~> 3.12"])
-    s.add_dependency(%q<rspec>, ["~> 2.14"])
-    s.add_dependency(%q<rspec-rails>, ["~> 2.14"])
-    s.add_dependency(%q<bundler>, ["~> 1.0"])
-    s.add_dependency(%q<jeweler>, ["~> 2.0"])
-    s.add_dependency(%q<simplecov>, ["~> 0"])
-  end
 end
-
